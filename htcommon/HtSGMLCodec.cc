@@ -53,6 +53,7 @@ HtSGMLCodec::HtSGMLCodec()
   myTextFromString << "&eacute;|&ecirc;|&euml;|&igrave;|&iacute;|&icirc;|&iuml;|&eth;|";
   myTextFromString << "&ntilde;|&ograve;|&oacute;|&ocirc;|&otilde;|&ouml;|&divide;|&oslash;|";
   myTextFromString << "&ugrave;|&uacute;|&ucirc;|&uuml;|&yacute;|&thorn;|&yuml;";
+  myTextFromString << "&mdash;|&ndash;";
  }
 
   myTextFromList->Create(myTextFromString, '|');
