@@ -80,6 +80,10 @@ HtSGMLCodec::HtSGMLCodec()
   myToList->Add("&");
   myNumFromList->Add("&#38;");
 
+  myTextFromList->Add("&apos;");
+  myToList->Add("'");
+  myNumFromList->Add("&#39;");
+
   myTextFromList->Add("&lt;");
   myToList->Add("<");
   myNumFromList->Add("&#60;");
